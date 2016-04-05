@@ -10,6 +10,10 @@ export default Ember.Route.extend({
     showCommittees3(){
       console.log('showCommittees at index recieved');
       this.transitionTo('committees');
+    },
+    showListBills3(){
+      console.log('SL Bills 3 runs');
+      this.transitionTo('bills');
     }
 
 

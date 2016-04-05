@@ -1,0 +1,8 @@
+{{outlet}}
+<ul>
+  {{#each model as |bill|}}
+    <li>  <h5>{{bill.bill_id}}<br>{{bill.introduced_on}}</h5>
+    <p>{{bill.official_title}}</p>
+  </li>
+  {{/each}}
+</ul>
