@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   actions: {
     showCommittees() {
       console.log('showCommittees 1');
-      this.sendAction('showCommittees');
+      this.sendAction('showCommittees2');
     }
   }
 
